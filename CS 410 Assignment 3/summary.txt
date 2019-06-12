@@ -1,0 +1,20 @@
+Summary List of Refactored Code from the worst smell to the least worst smell.
+ 
+1.
+ Line #- 24-33 in the SimpleNotePad.java file, I changed all the fields to private because conforming to good programming practices and to ensure 
+encapsulation, the fields of classes have to be private.
+
+2.
+In line 117 of the SimpleNotePad.java file, I Removed the unimplemented(todo) functionality of "undo" which had an empty else if statement because this code segment does nothing rathe than
+add over head to the program.
+
+3.
+
+I changed the names of the field Variables in SimpleNotePad.java from line 36-59 because fields are supposed to have logical
+ and meaningful names
+that give an idea of what they accomplish.
+
+4.
+I used the Model View Controller pattern to separate different components of the entire application so as to make it easier
+to add functionality and maintain and reuse. While the Model stores the data fields, the Controller takes care of the application logic 
+while the view displays the application to the client.
